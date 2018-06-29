@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    color: #81A594;
+    font-family: 'Monoton', cursive;
+    padding: 10px;
+    font-size: 20px;
+}
+#bodyWrap {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #00628B;
+    border-radius: 10px;
+
+}
+#innerWrap {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#clear, #getBal, #dCash, #wCash {
+    width: 160px;
+    padding: 5px;
+}
+
+#equal {
+    width: 300px;
+}
+
+.btn {
+    padding: 30px;
+    font-size: 20px;
+    background-color: #81A594;
+    color: #E6E6DC;
+    border-radius: 50%;
+    margin: 5px;
+    width: 120px;
+    height: 100px;
+    font-family: 'Monoton', cursive;
+}
+.btn:hover {
+    background: rgba(0,0,0,0);
+	color: #00628B;
+	box-shadow: inset 0 0 0 3px #00628B;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+#display {
+    width: 700px;
+    height: 100px;
+    background-color: #E6E6DC;
+    border-radius: 10px;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 50px
+}
+
