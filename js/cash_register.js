@@ -3,6 +3,9 @@ var cashRegister = 0;
 clear.addEventListener('click', clearIt);
 function clearIt(){
     display.innerHTML = null;
+    num1 = '';
+    num2 = '';
+    operator = '';
 }
 
 //deposit 
